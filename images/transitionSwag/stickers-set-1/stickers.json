@@ -1,0 +1,32 @@
+{
+  "name": "stickers-set-1",
+  "artist": "Aloy",
+  "stickers": {
+    
+      "raluca": ["raluca"],
+      "diggo": ["diggo"],
+      "jeanl": ["jeanl"],
+      "edgar": ["edgar"],
+      "diamante": ["diamante"],
+      "cellbit": ["cellbit"],
+      "core": ["core"],
+      "LO": ["LO"],
+      "nelipe": ["nelipe"],
+      "wrench": ["wrench"],
+      "kika": ["kika"],
+      "felca": ["felca"],
+      "raluca2": ["raluca2"],
+      "amanda": ["amanda"],
+      "gay": ["gay"],
+      "dani": ["dani"],
+      "ashpreto": ["ashpreto"],
+      "lila": ["lila"]
+  
+
+  },
+  "stickerPacks": {
+    "all": ["raluca", "diggo", "jeanl", "edgar", "diamante", "cellbit", "core",
+    "LO", "nelipe", "wrench", "kika", "felca", "raluca2", "amanda",
+    "gay", "dani", "ashpreto", "lila"]
+  }
+}

@@ -5,17 +5,17 @@
 	],
 	"_editorMeta": {
 		"boyfriend": "bf-pixel",
-		"gf": "gf",
-		"dad": "duet"
+		"dad": "duet",
+		"gf": "gf"
 	},
+	"girlfriend": [
+		400,
+		130
+	],
 	"stageUI": "normal",
 	"boyfriend": [
 		1170,
 		250
-	],
-	"girlfriend": [
-		400,
-		130
 	],
 	"defaultZoom": 1,
 	"objects": [
@@ -86,6 +86,39 @@
 			"type": "sprite"
 		},
 		{
+			"x": -366,
+			"y": 181,
+			"scale": [
+				6,
+				6
+			],
+			"image": "weekMonika/bgFreaks",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bgFreaks",
+			"firstAnimation": "idle",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": null,
+					"indices": [],
+					"fps": 24,
+					"anim": "idle",
+					"loop": false,
+					"name": "BG fangirls dissuaded"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
 			"x": -216,
 			"y": -121,
 			"scale": [
@@ -104,7 +137,7 @@
 				1,
 				1
 			],
-			"alpha": 1,
+			"alpha": 0,
 			"type": "sprite"
 		},
 		{
@@ -148,7 +181,7 @@
 				1,
 				1
 			],
-			"alpha": 1,
+			"alpha": 0,
 			"type": "sprite"
 		},
 		{
@@ -170,7 +203,7 @@
 				1,
 				1
 			],
-			"alpha": 1,
+			"alpha": 0,
 			"type": "sprite"
 		},
 		{
@@ -187,15 +220,15 @@
 		0,
 		0
 	],
+	"camera_speed": 1,
+	"directory": "",
 	"opponent": [
 		300,
 		0
 	],
-	"directory": "",
-	"camera_speed": 1,
-	"hide_girlfriend": true,
 	"camera_opponent": [
 		0,
 		0
-	]
+	],
+	"hide_girlfriend": true
 }

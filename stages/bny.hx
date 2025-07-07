@@ -19,6 +19,7 @@ function onCreate(){
     school.push(game.getLuaObject("sky"));
     school.push(game.getLuaObject("school"));
     school.push(game.getLuaObject("street"));
+    school.push(game.getLuaObject("bgFreaks"));
     
     monka.push(game.getLuaObject("room"));
     monka.push(game.getLuaObject("table"));
@@ -38,6 +39,8 @@ function onCreate(){
     
     for(i in 0...school.length){
         school[i].color = 0xFF111111;
+    }
+    for(i in 0...monka.length){
         monka[i].alpha = 0;
     }
 }
@@ -73,6 +76,9 @@ function onStepHit(){
             }
             for(i in 0...school.length){
                 school[i].alpha = 0.00000000000000000001;
+            }
+            
+            for(i in 0...monka.length){
                 monka[i].alpha = 0.00000000000000000001;
             }
             game.getLuaObject("evil").alpha = 0;
@@ -98,4 +104,8 @@ function applyshit(obj, name){
             name.updateFrameInfo(obj.frame);
         };
         obj.shader = name;
+}
+
+function onBeatHit(){
+    game.getLuaObject("bgFreaks").playAnim("idle");
 }
