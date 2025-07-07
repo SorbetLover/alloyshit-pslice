@@ -5,6 +5,11 @@
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
 	"hideStoryMode": false,
 	"songs": [
 		[
@@ -30,16 +35,11 @@
 			"abby",
 			[
 				255,
-				120,
-				195
+				180,
+				80
 			]
 		]
 	],
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Custom Week"
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
 }
