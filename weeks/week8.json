@@ -3,7 +3,7 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"weekBefore": "tutorial",
+	"weekBefore": "week7",
 	"startUnlocked": true,
 	"weekCharacters": [
 		"dad",
@@ -38,8 +38,17 @@
 				180,
 				80
 			]
+		],
+		[
+			"Tranquility",
+			"scarlet",
+			[
+				255,
+				180,
+				80
+			]
 		]
 	],
-	"weekName": "Custom Week",
+	"weekName": "week 8",
 	"hiddenUntilUnlocked": false
 }

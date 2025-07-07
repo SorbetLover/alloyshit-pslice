@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Scar Idle0"
+		},
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Scar Idle MAD"
+		},
+		{
+			"offsets": [90, 20],
+			"loop": false,
+			"fps": 24,
+			"anim": "laugh",
+			"indices": [],
+			"name": "Scar Laugh&#"
+		},
+		{
+			"loop": false,
+			"offsets": [140, -30],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Scar left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-10, -150],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Scar down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [30, 30],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Scar up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-20, -90],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Scar right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [319, 274],
+			"anim": "transform",
+			"fps": 24,
+			"name": "Scar transform",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [15, 4],
+			"anim": "hey",
+			"fps": 24,
+			"name": "Scar hey",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/fever/scarlet",
+	"position": [20, 120],
+	"healthicon": "scarlet",
+	"flip_x": false,
+	"healthbar_colors": [255, 115, 206],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

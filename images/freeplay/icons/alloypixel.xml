@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="alloy freeplay.png">
-<SubTexture name="confirm0000" x="100" y="39" width="41" height="37" frameX="-9" frameY="-12" frameWidth="60" frameHeight="60" />
+<!-- <SubTexture name="confirm0000" x="100" y="39" width="41" height="37" frameX="-9" frameY="-12" frameWidth="60" frameHeight="60" /> -->
 <!-- <SubTexture name="confirm0001" x="0" y="0" width="51" height="47" frameX="-4" frameY="-7" frameWidth="60" frameHeight="60" /> -->
 <!-- <SubTexture name="confirm0002" x="0" y="0" width="51" height="47" frameX="-4" frameY="-7" frameWidth="60" frameHeight="60" /> -->
 <SubTexture name="confirm0003" x="51" y="0" width="49" height="45" frameX="-5" frameY="-8" frameWidth="60" frameHeight="60" />

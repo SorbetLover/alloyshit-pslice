@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [-5, 0],
+			"anim": "idle",
+			"fps": 24,
+			"name": "fever idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [32, -1],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "fever left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-4, -80],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "fever down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-38, 2],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "fever up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-33, 1],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "fever right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [31, -1],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "fever left miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [2, -84],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "fever down miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-36, 1],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "fever up miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-35, 2],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "fever right miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-14, 0],
+			"anim": "hey",
+			"fps": 24,
+			"name": "fever hey",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [-14, 0],
+			"anim": "scared",
+			"fps": 24,
+			"name": "fever fear",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [30, 4],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "fever dodge",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/fever/casual_fever",
+	"position": [30, 190],
+	"healthicon": "cesar",
+	"flip_x": true,
+	"healthbar_colors": [195, 83, 227],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}
