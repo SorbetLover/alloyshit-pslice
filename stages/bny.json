@@ -1,0 +1,201 @@
+{
+	"camera_boyfriend": [
+		-200,
+		-110
+	],
+	"_editorMeta": {
+		"boyfriend": "bf-pixel",
+		"gf": "gf",
+		"dad": "duet"
+	},
+	"stageUI": "normal",
+	"boyfriend": [
+		1170,
+		250
+	],
+	"girlfriend": [
+		400,
+		130
+	],
+	"defaultZoom": 1,
+	"objects": [
+		{
+			"x": -686,
+			"y": -421,
+			"scale": [
+				8,
+				8
+			],
+			"image": "weekMonika/images/weeb/erect/weebSky",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sky",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				0.2,
+				0.2
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -98,
+			"y": -81,
+			"scale": [
+				6,
+				6
+			],
+			"image": "weekMonika/images/weeb/erect/weebSchool",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "school",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1.01,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -118,
+			"y": -106,
+			"scale": [
+				6,
+				6
+			],
+			"image": "weekMonika/images/weeb/erect/weebStreet",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "street",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -216,
+			"y": -121,
+			"scale": [
+				7,
+				7
+			],
+			"image": "weekMonika/images/weeb/erect/evilSchoolBG",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "evil",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 175,
+			"y": 82,
+			"scale": [
+				1,
+				1
+			],
+			"image": "weekMonika/images/ddto/Sky",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "skytemp",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 0,
+			"type": "sprite"
+		},
+		{
+			"x": -365,
+			"y": -278,
+			"scale": [
+				1.4,
+				1.4
+			],
+			"image": "weekMonika/images/ddto/BG",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "room",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -525,
+			"y": -33,
+			"scale": [
+				3,
+				1
+			],
+			"image": "weekMonika/images/ddto/FG",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "table",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"opponent": [
+		300,
+		0
+	],
+	"directory": "",
+	"camera_speed": 1,
+	"hide_girlfriend": true,
+	"camera_opponent": [
+		0,
+		0
+	]
+}
