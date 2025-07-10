@@ -1,0 +1,302 @@
+{
+	"version": "1.0.0",
+	"name": "Alloy ALT",
+	"ownedChars": [
+		"bf",
+		"bf-pixel"
+	],
+	"showUnownedChars": false,
+	"freeplayStyle": "bf",
+	"freeplayDJ": {
+		"assetPath": "freeplay/freeplay-alloy",
+		"text1": "ALLOYs MOD FOLDER wow",
+		"text2": "PSLICE TESTING SHIT",
+		"text3": "PROTECT YO BALLZ",
+		"animations": [
+			{
+				"prefix": "boyfriend dj intro",
+				"offsets": [
+					633,
+					363
+				],
+				"name": "intro"
+			},
+			{
+				"prefix": "Boyfriend DJ",
+				"offsets": [
+					625,
+					360
+				],
+				"name": "idle"
+			},
+			{
+				"prefix": "bf dj afk",
+				"offsets": [
+					1275,
+					419
+				],
+				"name": "idleEasterEgg"
+			},
+			{
+				"prefix": "Boyfriend DJ confirm",
+				"offsets": [
+					625,
+					360
+				],
+				"name": "confirm"
+			},
+			{
+				"prefix": "Boyfriend DJ fist pump",
+				"offsets": [
+					625,
+					360
+				],
+				"name": "fistPump"
+			},
+			{
+				"prefix": "Boyfriend DJ watchin tv OG",
+				"offsets": [
+					625,
+					360
+				],
+				"name": "cartoon"
+			},
+			{
+				"prefix": "Boyfriend DJ loss reaction 1",
+				"offsets": [
+					625,
+					360
+				],
+				"name": "loss"
+			},
+			{
+				"prefix": "Boyfriend DJ to CS",
+				"offsets": [
+					625,
+					360
+				],
+				"name": "charSelect"
+			},
+			{
+				"prefix": "Boyfriend DJ new character ",
+				"offsets": [
+					625,
+					360
+				],
+				"name": "newUnlock"
+			}
+		],
+		"charSelect": {
+			"transitionDelay": 0.5
+		},
+		"cartoon": {
+			"soundClickFrame": 80,
+			"loopFrame": 166,
+			"loopBlinkFrame": 112,
+			"channelChangeFrame": 60,
+			"soundCartoonFrame": 85
+		},
+		"fistPump": {
+			"loopBadStartFrame": 4,
+			"introBadStartFrame": 0,
+			"introEndFrame": 4,
+			"loopEndFrame": -1,
+			"loopBadEndFrame": -1,
+			"introBadEndFrame": 4,
+			"introStartFrame": 0,
+			"loopStartFrame": 4
+		}
+	},
+	"charSelect": {
+		"gf": {
+			"visualizer": false,
+			"animInfoPath": "charSelect/gfAnimInfo",
+			"assetPath": "charSelect/gfChill"
+		},
+		"position": 3
+	},
+	"results": {
+		"good": [
+			{
+				"offsets": [
+					662,
+					371
+				],
+				"zIndex": 501,
+				"renderType": "animateatlas",
+				"loopFrame": 14,
+				"assetPath": "shared:resultScreen/results-bf/resultsGOOD/bf"
+			},
+			{
+				"offsets": [
+					629,
+					323
+				],
+				"zIndex": 500,
+				"renderType": "sparrow",
+				"loopFrame": 9,
+				"assetPath": "shared:resultScreen/results-bf/resultsGOOD/resultGirlfriendGOOD",
+				"delay": 0.91
+			}
+		],
+		"great": [
+			{
+				"zIndex": 499,
+				"offsets": [
+					802,
+					331
+				],
+				"renderType": "animateatlas",
+				"loopFrame": 9,
+				"assetPath": "shared:resultScreen/results-bf/resultsGREAT/gf",
+				"scale": 0.93,
+				"delay": 0.25
+			},
+			{
+				"offsets": [
+					929,
+					363
+				],
+				"zIndex": 500,
+				"renderType": "animateatlas",
+				"loopFrame": 15,
+				"assetPath": "shared:resultScreen/results-bf/resultsGREAT/bf",
+				"scale": 0.93
+			}
+		],
+		"perfect": [
+			{
+				"offsets": [
+					1342,
+					370
+				],
+				"zIndex": 500,
+				"filter": "naughty",
+				"renderType": "animateatlas",
+				"startFrameLabel": "INTRO",
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/bed",
+				"loopFrameLabel": "LOOP START"
+			},
+			{
+				"offsets": [
+					1342,
+					370
+				],
+				"zIndex": 501,
+				"filter": "naughty",
+				"renderType": "animateatlas",
+				"loopFrame": 43,
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/hearts",
+				"delay": 4.41
+			},
+			{
+				"offsets": [
+					1342,
+					370
+				],
+				"zIndex": 500,
+				"filter": "safe",
+				"renderType": "animateatlas",
+				"startFrameLabel": "INTRO 2",
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/bed",
+				"loopFrameLabel": "LOOP 2"
+			},
+			{
+				"offsets": [
+					2387,
+					1146
+				],
+				"zIndex": 501,
+				"filter": "safe",
+				"renderType": "animateatlas",
+				"scale": 0.6,
+				"loopFrameLabel": "LOOP",
+				"delay": 4.41,
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
+				"sound": "shared:tickleFight"
+			}
+		],
+		"perfectGold": [
+			{
+				"offsets": [
+					1342,
+					370
+				],
+				"zIndex": 500,
+				"renderType": "animateatlas",
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/bed",
+				"loopFrameLabel": "LOOP START"
+			},
+			{
+				"offsets": [
+					1342,
+					370
+				],
+				"zIndex": 501,
+				"renderType": "animateatlas",
+				"loopFrame": 43,
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/hearts",
+				"delay": 4.41
+			},
+			{
+				"offsets": [
+					1342,
+					370
+				],
+				"zIndex": 500,
+				"filter": "safe",
+				"renderType": "animateatlas",
+				"startFrameLabel": "INTRO 2",
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/bed",
+				"loopFrameLabel": "LOOP 2"
+			},
+			{
+				"offsets": [
+					2387,
+					1146
+				],
+				"zIndex": 501,
+				"filter": "safe",
+				"renderType": "animateatlas",
+				"scale": 0.6,
+				"loopFrameLabel": "LOOP",
+				"delay": 4.41,
+				"assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
+				"sound": "shared:tickleFight"
+			}
+		],
+		"music": {
+			"SHIT": "resultsSHIT",
+			"GOOD": "resultsNORMAL",
+			"GREAT": "resultsNORMAL",
+			"PERFECT": "resultsPERFECT",
+			"PERFECT_GOLD": "resultsPERFECT",
+			"EXCELLENT": "resultsEXCELLENT"
+		},
+		"excellent": [
+			{
+				"offsets": [
+					1329,
+					429
+				],
+				"zIndex": 500,
+				"renderType": "animateatlas",
+				"loopFrame": 29,
+				"assetPath": "shared:resultScreen/results-bf/resultsEXCELLENT"
+			}
+		],
+		"loss": [
+			{
+				"offsets": [
+					0,
+					20
+				],
+				"zIndex": 500,
+				"renderType": "animateatlas",
+				"assetPath": "shared:resultScreen/results-bf/resultsSHIT",
+				"loopFrameLabel": "Loop Start"
+			}
+		]
+	},
+	"unlocked": true
+}

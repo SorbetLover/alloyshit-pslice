@@ -5,12 +5,6 @@
 	"weekBackground": "stage",
 	"weekBefore": "week7",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
-	"hideStoryMode": false,
 	"songs": [
 		[
 			"Medicine",
@@ -43,12 +37,18 @@
 			"Tranquility",
 			"scarlet",
 			[
-				255,
-				180,
-				80
+				215,
+				95,
+				186
 			]
 		]
 	],
-	"weekName": "week 8",
-	"hiddenUntilUnlocked": false
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
+	"weekName": "week 8"
 }
