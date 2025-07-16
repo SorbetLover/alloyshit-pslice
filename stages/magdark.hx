@@ -25,7 +25,7 @@ function applyshit(obj){
         obj.shader = shadr;
 }
 function onBeatHit(){
-    if(curBeat % 4 == 0){
+    if(curBeat % 2 == 0){
         game.getLuaObject("monika").playAnim("idle", true);
         game.getLuaObject("yuri").playAnim("idle", true);
         game.getLuaObject("crowd").playAnim("idle", true);
