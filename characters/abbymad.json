@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [-100, -80],
+			"anim": "idle",
+			"fps": 24,
+			"name": "AbbyIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-44, -29],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "AbbyLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-120, -100],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AbbyDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-100, 23],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AbbyUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-40, -100],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AbbyRIGHT",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/maginage/abbymad",
+	"position": [-180, 210],
+	"healthicon": "abby",
+	"flip_x": false,
+	"healthbar_colors": [255, 182, 68],
+	"camera_position": [0, 0],
+	"sing_duration": 7,
+	"scale": 1.14,
+	"_editor_isPlayer": false
+}

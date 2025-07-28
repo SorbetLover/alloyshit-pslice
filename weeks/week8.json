@@ -5,6 +5,7 @@
 	"weekBackground": "stage",
 	"weekBefore": "week7",
 	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Medicine",
@@ -41,6 +42,15 @@
 				95,
 				186
 			]
+		],
+		[
+			"Fast-Pace",
+			"abby",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
 	"weekCharacters": [
@@ -48,7 +58,6 @@
 		"bf",
 		"gf"
 	],
-	"hideStoryMode": false,
-	"hiddenUntilUnlocked": false,
-	"weekName": "week 8"
+	"weekName": "week 8",
+	"hiddenUntilUnlocked": false
 }
