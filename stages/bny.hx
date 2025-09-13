@@ -67,7 +67,7 @@ function onStepHit(){
             FlxG.camera.flash(0xFF803300, Conductor.crochet / 400, true);
             for(cu in [dad, boyfriend]){
                 cu.shader.distance = 0;
-                cu.shader.setAdjustColor(-40, -10, 24, -23);
+                cu.shader.setAdjustColor(-40, -10, 30, -23);
             }
         case 1548:
             for(cu in [dad, boyfriend]){
