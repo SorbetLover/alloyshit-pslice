@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ojipixel.png">
+	<!-- <SubTexture name="confirm0000" x="0" y="98" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/> -->
+	<!-- <SubTexture name="confirm0001" x="0" y="0" width="61" height="52" frameX="1" frameY="-1" frameWidth="60" frameHeight="55"/> -->
+	<!-- <SubTexture name="confirm0002" x="0" y="0" width="61" height="52" frameX="1" frameY="-1" frameWidth="60" frameHeight="55"/> -->
+	<SubTexture name="confirm0003" x="61" y="0" width="57" height="48" frameX="-1" frameY="-3" frameWidth="60" frameHeight="55"/>
+	<!-- <SubTexture name="confirm0004" x="0" y="52" width="55" height="46" frameX="-2" frameY="-4" frameWidth="60" frameHeight="55"/> -->
+	<SubTexture name="confirm0005" x="0" y="52" width="55" height="46" frameX="-2" frameY="-4" frameWidth="60" frameHeight="55"/>
+	<!-- <SubTexture name="confirm0006" x="55" y="52" width="53" height="46" frameX="-3" frameY="-4" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0007" x="118" y="0" width="51" height="44" frameX="-4" frameY="-5" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0008" x="118" y="0" width="51" height="44" frameX="-4" frameY="-5" frameWidth="60" frameHeight="55"/> -->
+
+	<!-- <SubTexture name="confirm0009" x="49" y="98" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/> -->
+	<SubTexture name="confirm0010" x="169" y="84" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<!-- <SubTexture name="confirm0011" x="169" y="84" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/> -->
+	<SubTexture name="confirm0012" x="169" y="42" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0013" x="98" y="98" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0014" x="169" y="0" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0015" x="118" y="44" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<!-- <SubTexture name="confirm0016" x="118" y="44" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0017" x="118" y="44" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0018" x="118" y="44" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0019" x="118" y="44" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0020" x="118" y="44" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm0021" x="118" y="44" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/> -->
+
+	<SubTexture name="idle0000" x="0" y="140" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+	<SubTexture name="confirm-loop0000" x="49" y="140" width="49" height="42" frameX="-5" frameY="-6" frameWidth="60" frameHeight="55"/>
+</TextureAtlas>

@@ -7,7 +7,7 @@ function onCreate(){
 	applyshit(boyfriend);
     
 }
-
+var forcedzoom = 0;
 function onCreatePost(){
     if(PlayState.instance.curSong != "its-complicated"){
         game.getLuaObject("monika").visible = false;
@@ -22,6 +22,10 @@ function onCreatePost(){
         dad.x += 100;
         boyfriend.x -= 100;
     }
+    debugPrint( ((FlxG.width - 1280) / 2) / 10);
+    defaultCamZoom = defaultCamZoom - ((FlxG.width - 1280) / 2) / 500 - 0.2;
+    FlxG.camera.zoom = defaultCamZoom;
+    forcedzoom = defaultCamZoom;
 }
 function applyshit(obj){
         var shadr = new DropShadowShader();
@@ -47,7 +51,18 @@ function onBeatHit(){
         game.getLuaObject("yuri").playAnim("idle", true);
         game.getLuaObject("crowd").playAnim("idle", true);
         game.getLuaObject("natsuki").playAnim("idle", true);
-
-
     }
+    if(curBeat % 8 == 0){
+        camGame.zoom += 0.01;
+        camHUD.zoom += 0.01;
+    }
+}
+
+function onUpdatePost(){
+    ///// STUPID CAM ZOOM SHIT
+    debugUnbindCameraZoom = true;
+    camZooming = false;
+    camGame.zoom = FlxMath.lerp(camGame.zoom, forcedzoom, 0.06 * playbackRate);
+    camHUD.zoom = FlxMath.lerp(camHUD.zoom, 1, 0.06 * playbackRate);
+
 }
