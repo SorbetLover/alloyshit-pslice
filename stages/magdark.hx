@@ -1,7 +1,8 @@
 
 import objects.BGSprite;
-import shaders.DropShadowShader;
-
+if(ClientPrefs.vibrating != null){ 
+    import shaders.DropShadowShader;
+}
 function onCreate(){
 	applyshit(dad);
 	applyshit(boyfriend);
@@ -23,11 +24,13 @@ function onCreatePost(){
         boyfriend.x -= 100;
     }
     debugPrint( ((FlxG.width - 1280) / 2) / 10);
-    defaultCamZoom = defaultCamZoom - ((FlxG.width - 1280) / 2) / 500 - 0.2;
-    FlxG.camera.zoom = defaultCamZoom;
+    // defaultCamZoom = defaultCamZoom - ((FlxG.width - 1280) / 2) / 500 - 0.2;
+    // FlxG.camera.zoom = defaultCamZoom;
     forcedzoom = defaultCamZoom;
 }
 function applyshit(obj){
+        if(ClientPrefs.vibrating == null) return;
+
         var shadr = new DropShadowShader();
 		shadr.setAdjustColor(-66, -10, 24, -23);
 		shadr.color = 0xFF52351d;

@@ -1,6 +1,7 @@
 // isCameraOnForcedPos
+if(ClientPrefs.vibrating != null){ 
 import shaders.DropShadowShader;
-import shaders.WiggleEffectRuntime;
+}import shaders.WiggleEffectRuntime;
 import shaders.WiggleEffectRuntime.WiggleEffectType;
 
 var shits:Array = [];
@@ -40,6 +41,7 @@ function onUpdate(elapsed){
 	wiggleEffece?.update(elapsed);
 }
 function applyshit(obj){
+		if(ClientPrefs.vibrating == null) return;
         var name = new DropShadowShader();
 		name.setAdjustColor(-10, 10, 20, 0);
 		name.color = 0xFF660054;

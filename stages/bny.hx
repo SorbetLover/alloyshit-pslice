@@ -1,6 +1,7 @@
 import objects.BGSprite;
+if(ClientPrefs.vibrating != null){ 
 import shaders.DropShadowShader;
-import flixel.addons.display.FlxBackdrop;
+}import flixel.addons.display.FlxBackdrop;
 
 var bgSky:BGSprite;
 var foliage:BGSprite;
@@ -57,6 +58,7 @@ function onStepHit(){
             game.getLuaObject("evil").alpha = 1;
             FlxG.camera.flash(0xFF141452, Conductor.crochet / 400, true);
             for(cu in [dad, boyfriend]){
+                if(ClientPrefs.vibrating == null) break;
                 cu.shader.color = 0xFF141452;
                 cu.shader.setAdjustColor(-66, -10, 40, -23);
             }
@@ -66,11 +68,15 @@ function onStepHit(){
             }
             FlxG.camera.flash(0xFF803300, Conductor.crochet / 400, true);
             for(cu in [dad, boyfriend]){
+                if(ClientPrefs.vibrating == null) break;
+
                 cu.shader.distance = 0;
                 cu.shader.setAdjustColor(-40, -10, 30, -23);
             }
         case 1548:
             for(cu in [dad, boyfriend]){
+                if(ClientPrefs.vibrating == null) break;
+
                 cu.shader = null;
                 cu.colorTransform.color = 0xFFFFFFFF;
             }
@@ -89,6 +95,8 @@ function onStepHit(){
 }
 
 function applyshit(obj, name){
+        if(ClientPrefs.vibrating == null) return;
+    
         name = new DropShadowShader();
 		name.setAdjustColor(-66, -10, 24, -23);
 		name.color = 0xFF52351d;

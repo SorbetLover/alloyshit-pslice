@@ -1,7 +1,8 @@
 
 import objects.BGSprite;
+if(ClientPrefs.vibrating != null){ 
 import shaders.DropShadowShader;
-import objects.Character;
+}import objects.Character;
 var otherAbby:Character;
 
 function onCreate(){}
@@ -33,7 +34,7 @@ function onUpdatePost(){
         otherAbby.playAnim("idle", true);
     }
 }
-function opponentNoteHitPre(note){
+function goodNoteHitPre(note){
     switch(note.noteType){
         case "altChar":
             otherAbby.visible = true;
@@ -56,6 +57,7 @@ function opponentNoteHitPre(note){
 }
 
 function applyshit(obj){
+    if(ClientPrefs.vibrating != null){
         var shadr = new DropShadowShader();
 		shadr.setAdjustColor(-66, -10, 24, -23);
 		shadr.color = 0xFF52351d;
@@ -71,5 +73,6 @@ function applyshit(obj){
             shadr.updateFrameInfo(obj.frame);
         };
         obj.shader = shadr;
+    }
         
 }
