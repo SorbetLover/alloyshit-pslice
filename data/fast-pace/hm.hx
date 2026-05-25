@@ -34,7 +34,31 @@ function onUpdatePost(){
         otherAbby.playAnim("idle", true);
     }
 }
+function opponentNoteHit(note){
+    if(!note.hitByOpponent) return;
+    switch(note.noteType){
+        case "altChar":
+            otherAbby.visible = true;
+            dad.visible = false;
+        default:
+            otherAbby.visible = false;
+            dad.visible = true;
+    }
+    otherAbby.debugMode = true; 
+    switch(note.noteData){
+        case 0:
+            otherAbby.playAnim("singLEFT", true);
+        case 1:
+            otherAbby.playAnim("singDOWN", true);
+        case 2:
+            otherAbby.playAnim("singUP", true);
+        case 3:
+            otherAbby.playAnim("singRIGHT", true);
+    }
+
+}
 function goodNoteHitPre(note){
+    if(!note.hitByOpponent) return;
     switch(note.noteType){
         case "altChar":
             otherAbby.visible = true;

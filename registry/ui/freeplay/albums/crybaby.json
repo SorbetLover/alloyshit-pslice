@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "name": "crybaby",
+  "artists": ["Melanie Martinez", "Foodieti"],
+  "albumArtAsset": "freeplay/albumRoll/crybaby",
+  "albumTitleAsset": "freeplay/albumRoll/volume1-text"
+}

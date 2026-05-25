@@ -1,6 +1,6 @@
 {
 	"storyName": "Your New Week",
-	"difficulties": "",
+	"difficulties": "hard",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
 	"weekBefore": "week7",
@@ -51,7 +51,17 @@
 				113,
 				253
 			]
+		],
+		[
+			"showandtell",
+			"senpai-pixel",
+			[
+				146,
+				113,
+				253
+			]
 		]
+
 	],
 	"weekCharacters": [
 		"dad",

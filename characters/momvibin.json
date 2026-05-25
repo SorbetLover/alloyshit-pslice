@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [30, 50],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [187, 17],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "singLEFT"
+		},
+		{
+			"offsets": [50, -20],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "singRIGHT"
+		},
+		{
+			"offsets": [10, -150],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "singDOWN"
+		},
+		{
+			"offsets": [64, 111],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "singUP"
+		},
+		{
+			"offsets": [187, 17],
+			"indices": [7, 8, 9, 10],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "singLEFT"
+		},
+		{
+			"offsets": [50, -20],
+			"indices": [7, 8, 9, 10],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "singRIGHT"
+		},
+		{
+			"offsets": [10, -150],
+			"indices": [12, 13, 14, 15],
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"loop": true,
+			"name": "singDOWN"
+		},
+		{
+			"offsets": [64, 111],
+			"indices": [12, 13, 14, 15],
+			"fps": 24,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "singUP"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/vibin/momvibin",
+	"position": [0, 0],
+	"healthicon": "mom",
+	"flip_x": false,
+	"healthbar_colors": [216, 85, 142],
+	"camera_position": [0, 100],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}
