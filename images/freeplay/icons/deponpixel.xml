@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deponpixel.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="confirm0003" x="116" y="0" width="56" height="61" frameX="-12" frameY="-11" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="confirm0005" x="0" y="61" width="52" height="55" frameX="-15" frameY="-14" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="confirm0010" x="42" y="165" width="42" height="45" frameX="-20" frameY="-19" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="confirm0012" x="92" y="116" width="42" height="45" frameX="-20" frameY="-19" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="confirm0013" x="172" y="45" width="42" height="45" frameX="-20" frameY="-19" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="confirm0014" x="172" y="90" width="42" height="45" frameX="-20" frameY="-19" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="confirm0015" x="0" y="165" width="42" height="45" frameX="-20" frameY="-19" frameWidth="80" frameHeight="80"/>
+
+	<SubTexture name="confirm-loop0000" x="0" y="165" width="42" height="45" frameX="-20" frameY="-17" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="idle0000" x="126" y="165" width="41" height="44" frameX="-20" frameY="-20" frameWidth="80" frameHeight="80"/>
+</TextureAtlas>
