@@ -1,0 +1,77 @@
+{
+	"camera_boyfriend": [
+		-250,
+		-150
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "mao-v2"
+	},
+	"preload": {
+		"images/stagecurtains": 2,
+		"images/smoke": 3,
+		"images/spotlight": 3,
+		"images/stage_light": 2,
+		"images/stageback": 3,
+		"images/stagefront": 3
+	},
+	"girlfriend": [
+		407,
+		161
+	],
+	"stageUI": "",
+	"boyfriend": [
+		948,
+		113
+	],
+	"objects": [
+		{
+			"type": "gf"
+		},
+		{
+			"x": -976,
+			"y": -905,
+			"scale": [
+				3.3,
+				3.3
+			],
+			"image": "stages/mmbg2",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite1",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		-50
+	],
+	"defaultZoom": 0.55,
+	"camera_speed": 1,
+	"directory": "week1",
+	"opponent": [
+		-172,
+		91
+	],
+	"camera_opponent": [
+		100,
+		100
+	],
+	"hide_girlfriend": true
+}
