@@ -1,4 +1,6 @@
 import objects.Note;
+import backend.Difficulty;
+
 import Type;
 import Reflect;
 import lime.system.Clipboard;
