@@ -24,7 +24,7 @@ function onCreatePost(){
 			i.noteType = "crazey";
 		}
 	}
-	noteShit();
+	if(Difficulty.getString().toUpperCase() == "SWAPPED") noteShit();
 }
 function noteShit(){
 	for(i in unspawnNotes){
