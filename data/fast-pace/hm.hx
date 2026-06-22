@@ -1,8 +1,10 @@
+import backend.Difficulty;
+
+import Type;
 
 import objects.BGSprite;
-if(ClientPrefs.vibrating != null){ 
 import shaders.DropShadowShader;
-}import objects.Character;
+import objects.Character;
 var otherAbby:Character;
 
 function onCreate(){}
@@ -35,7 +37,31 @@ function onUpdatePost(){
     }
 }
 function opponentNoteHit(note){
+    
     if(!note.hitByOpponent) return;
+    switch(note.noteType){
+        case "altChar":
+            otherAbby.visible = true;
+            dad.visible = false;
+        default:
+            otherAbby.visible = false;
+            dad.visible = true;
+    }
+    otherAbby.debugMode = true; 
+    switch(note.noteData){
+        case 0:
+            otherAbby.playAnim("singLEFT", true);
+        case 1:
+            otherAbby.playAnim("singDOWN", true);
+        case 2:
+            otherAbby.playAnim("singUP", true);
+        case 3:
+            otherAbby.playAnim("singRIGHT", true);
+    }
+
+}
+function goodNoteHit(note){
+    if(!Difficulty.getString().toUpperCase() == "SWAPPED") return;
     switch(note.noteType){
         case "altChar":
             otherAbby.visible = true;
@@ -81,7 +107,8 @@ function goodNoteHitPre(note){
 }
 
 function applyshit(obj){
-    if(ClientPrefs.vibrating != null){
+    	if(Type.resolveClass(DropShadowShader) == null) return;
+
         var shadr = new DropShadowShader();
 		shadr.setAdjustColor(-66, -10, 24, -23);
 		shadr.color = 0xFF52351d;
@@ -97,6 +124,5 @@ function applyshit(obj){
             shadr.updateFrameInfo(obj.frame);
         };
         obj.shader = shadr;
-    }
         
 }

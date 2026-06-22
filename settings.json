@@ -1,0 +1,10 @@
+[
+	{
+		"save": "forceswap",
+		"name": "Force Strum Swap in other songs", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "self explanatory", //Description shown on the mod settings menu
+		"value": false //This is the default value
+	}
+	
+]

@@ -1,8 +1,7 @@
+import Type;
 
 import objects.BGSprite;
-if(ClientPrefs.vibrating != null){ 
     import shaders.DropShadowShader;
-}
 function onCreate(){
 	applyshit(dad);
 	applyshit(boyfriend);
@@ -29,7 +28,7 @@ function onCreatePost(){
     forcedzoom = defaultCamZoom;
 }
 function applyshit(obj){
-        if(ClientPrefs.vibrating == null) return;
+    	if(Type.resolveClass(DropShadowShader) == null) return;
 
         var shadr = new DropShadowShader();
 		shadr.setAdjustColor(-66, -10, 24, -23);
