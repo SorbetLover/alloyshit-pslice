@@ -26,7 +26,20 @@ function onCreatePost(){
             }
         }
     }
+
+    // healthBar.flipX = true;
+    var ics = [];
+    ics.push(iconP1.getCharacter());
+    ics.push(iconP2.getCharacter());
+    iconP1.changeIcon(ics[1], true);
+    iconP2.changeIcon(ics[0], false);
+    var hcs = [];
+    hcs.push(dad.healthColorArray);
+    hcs.push(boyfriend.healthColorArray);
+    // debugPrint(hcs);
+    healthBar.setColors(FlxColor.fromRGB(hcs[1][0],hcs[1][1],hcs[1][2]), FlxColor.fromRGB(hcs[0][0],hcs[0][1],hcs[0][2]));
 }
+
 
 function goodNoteHit(e){
     if(!isswap) return;
