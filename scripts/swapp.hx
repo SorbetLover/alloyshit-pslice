@@ -11,7 +11,7 @@ function onCreatePost(){
     // if(getModSetting("forceswap") == true && Mods.currentModDirectory != "alloyshit-pslice" && Mods.currentModDirectory != "alloyshit-pslice-main"){
         // isswap = true;
     // }
-    debugPrint(isswap);
+    debugPrint(boyfriend.animation.exists("singUP-alt"));
     if(isswap){
         for(i in unspawnNotes){
             i.noMissAnimation = true;
@@ -50,13 +50,13 @@ function goodNoteHit(e){
         dad.holdTimer = 0;
         switch(e.noteData){
             case 0:
-                dad.playAnim("singLEFT", true);
+                dad.playAnim("singLEFT" + ((altAnim && dad.animation.exists("singLEFT-alt") == true) ? "-alt":""), true);
             case 1:
-                dad.playAnim("singDOWN", true);
+                dad.playAnim("singDOWN" + ((altAnim && dad.animation.exists("singDOWN-alt") == true) ? "-alt":""), true);
             case 2:
-                dad.playAnim("singUP", true);
+                dad.playAnim("singUP" + ((altAnim && dad.animation.exists("singUP-alt") == true) ? "-alt":""), true);
             case 3:
-                dad.playAnim("singRIGHT", true);
+                dad.playAnim("singRIGHT" + ((altAnim && dad.animation.exists("singRIGHT-alt") == true) ? "-alt":""), true);
         }	
     }
 }
@@ -83,13 +83,13 @@ function opponentNoteHit(e){
     
         switch(e.noteData){
             case 0:
-                boyfriend.playAnim("singLEFT", true);
+                boyfriend.playAnim("singLEFT" + ((altAnim && boyfriend.animation.exists("singLEFT-alt") == true) ? "-alt":""), true);
             case 1:
-                boyfriend.playAnim("singDOWN", true);
+                boyfriend.playAnim("singDOWN" + ((altAnim && boyfriend.animation.exists("singDOWN-alt") == true) ? "-alt":""), true);
             case 2:
-                boyfriend.playAnim("singUP", true);
+                boyfriend.playAnim("singUP" + ((altAnim && boyfriend.animation.exists("singUP-alt") == true) ? "-alt":""), true);
             case 3:
-                boyfriend.playAnim("singRIGHT", true);
+                boyfriend.playAnim("singRIGHT" + ((altAnim && boyfriend.animation.exists("singRIGHT-alt") == true) ? "-alt":""), true);
         }
     }
 }
