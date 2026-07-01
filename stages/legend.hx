@@ -81,7 +81,7 @@ function onCreatePost(){
 		// limit1.zoomFactor.set(0,0);
 		limit2.setPosition(FlxG.width - diff/2, 0 );
 		limit1.setPosition(0, 0);
-		gf.x = -7 + diff * FlxG.camera.zoom;
+		// gf.x = -7 + diff * FlxG.camera.zoom;
 	} else {
 		gf.x += 45;
 	}
