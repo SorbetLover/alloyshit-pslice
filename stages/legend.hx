@@ -129,7 +129,7 @@ function onUpdate(elapsed){
 		glu("fg").visible = false;
 	}
 	if(isswaps && iconP2.char == "mineraluca"){
-		iconP2.changeIcon("tazercraft")
+		iconP2.changeIcon("tazercraft");
 		healthBar.setColors(
 			FlxColor.fromRGB(0,255,255)
 			, 
