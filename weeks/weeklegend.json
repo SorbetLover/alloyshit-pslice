@@ -1,0 +1,28 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "hard, swapped",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "week7",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"legend",
+			"mineraluca",
+			[
+				146,
+				113,
+				253
+			]
+		]
+
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekName": "week 8",
+	"hiddenUntilUnlocked": false
+}

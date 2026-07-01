@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ralucaCam.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="391" y="41" width="70" height="59" frameX="-98" frameY="-77" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="down0000" x="391" y="0" width="151" height="41" frameX="-58" frameY="-98" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="down0001" x="223" y="304" width="144" height="43" frameX="-61" frameY="-95" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="down0002" x="92" y="304" width="131" height="50" frameX="-68" frameY="-88" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="down0003" x="175" y="221" width="124" height="54" frameX="-71" frameY="-84" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="left0000" x="0" y="304" width="92" height="72" frameX="-71" frameY="-66" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="left0001" x="84" y="221" width="91" height="76" frameX="-72" frameY="-61" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="left0002" x="86" y="125" width="87" height="81" frameX="-76" frameY="-56" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="left0003" x="0" y="221" width="84" height="83" frameX="-79" frameY="-53" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="right0000" x="146" y="0" width="91" height="93" frameX="-89" frameY="-42" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="right0001" x="0" y="125" width="86" height="96" frameX="-91" frameY="-40" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="right0002" x="237" y="0" width="81" height="99" frameX="-93" frameY="-37" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="right0003" x="237" y="99" width="78" height="101" frameX="-95" frameY="-35" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="up0000" x="0" y="0" width="73" height="125" frameX="-96" frameY="-11" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="up0001" x="73" y="0" width="73" height="116" frameX="-96" frameY="-20" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="up0002" x="318" y="0" width="73" height="100" frameX="-96" frameY="-36" frameWidth="270" frameHeight="180"/>
+	<SubTexture name="up0003" x="318" y="100" width="72" height="92" frameX="-97" frameY="-44" frameWidth="270" frameHeight="180"/>
+</TextureAtlas>

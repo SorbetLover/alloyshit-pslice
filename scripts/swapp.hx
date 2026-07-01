@@ -7,6 +7,7 @@ function onCreatePost(){
     if(PlayState.SONG.song == "crybaby"){
         isswap = false;
     }
+    if(!isswap) return;
     // debugPrint(PlayState.SONG.song);
     // if(getModSetting("forceswap") == true && Mods.currentModDirectory != "alloyshit-pslice" && Mods.currentModDirectory != "alloyshit-pslice-main"){
         // isswap = true;
@@ -28,16 +29,19 @@ function onCreatePost(){
     }
 
     // healthBar.flipX = true;
-    var ics = [];
-    ics.push(iconP1.getCharacter());
-    ics.push(iconP2.getCharacter());
-    iconP1.changeIcon(ics[1], true);
-    iconP2.changeIcon(ics[0], false);
-    var hcs = [];
-    hcs.push(dad.healthColorArray);
-    hcs.push(boyfriend.healthColorArray);
-    // debugPrint(hcs);
-    healthBar.setColors(FlxColor.fromRGB(hcs[1][0],hcs[1][1],hcs[1][2]), FlxColor.fromRGB(hcs[0][0],hcs[0][1],hcs[0][2]));
+    if(isswap){
+        var ics = [];
+        ics.push(iconP1.getCharacter());
+        ics.push(iconP2.getCharacter());
+        iconP1.changeIcon(ics[1], true);
+        iconP2.changeIcon(ics[0], false);
+        var hcs = [];
+        hcs.push(dad.healthColorArray);
+        hcs.push(boyfriend.healthColorArray);
+        // debugPrint(hcs);
+        healthBar.setColors(FlxColor.fromRGB(hcs[1][0],hcs[1][1],hcs[1][2]), FlxColor.fromRGB(hcs[0][0],hcs[0][1],hcs[0][2]));
+
+    }
 }
 
 
@@ -63,13 +67,13 @@ function goodNoteHit(e){
         dad.holdTimer = 0;
         switch(e.noteData){
             case 0:
-                dad.playAnim("singLEFT" + ((altAnim && dad.animation.exists("singLEFT-alt") == true) ? "-alt":""), true);
+                dad.playAnim("singLEFT" + ((e.altAnim && dad.animation.exists("singLEFT-alt") == true) ? "-alt":""), true);
             case 1:
-                dad.playAnim("singDOWN" + ((altAnim && dad.animation.exists("singDOWN-alt") == true) ? "-alt":""), true);
+                dad.playAnim("singDOWN" + ((e.altAnim && dad.animation.exists("singDOWN-alt") == true) ? "-alt":""), true);
             case 2:
-                dad.playAnim("singUP" + ((altAnim && dad.animation.exists("singUP-alt") == true) ? "-alt":""), true);
+                dad.playAnim("singUP" + ((e.altAnim && dad.animation.exists("singUP-alt") == true) ? "-alt":""), true);
             case 3:
-                dad.playAnim("singRIGHT" + ((altAnim && dad.animation.exists("singRIGHT-alt") == true) ? "-alt":""), true);
+                dad.playAnim("singRIGHT" + ((e.altAnim && dad.animation.exists("singRIGHT-alt") == true) ? "-alt":""), true);
         }	
     }
 }
@@ -96,13 +100,13 @@ function opponentNoteHit(e){
     
         switch(e.noteData){
             case 0:
-                boyfriend.playAnim("singLEFT" + ((altAnim && boyfriend.animation.exists("singLEFT-alt") == true) ? "-alt":""), true);
+                boyfriend.playAnim("singLEFT" + ((e.altAnim && boyfriend.animation.exists("singLEFT-alt") == true) ? "-alt":""), true);
             case 1:
-                boyfriend.playAnim("singDOWN" + ((altAnim && boyfriend.animation.exists("singDOWN-alt") == true) ? "-alt":""), true);
+                boyfriend.playAnim("singDOWN" + ((e.altAnim && boyfriend.animation.exists("singDOWN-alt") == true) ? "-alt":""), true);
             case 2:
-                boyfriend.playAnim("singUP" + ((altAnim && boyfriend.animation.exists("singUP-alt") == true) ? "-alt":""), true);
+                boyfriend.playAnim("singUP" + ((e.altAnim && boyfriend.animation.exists("singUP-alt") == true) ? "-alt":""), true);
             case 3:
-                boyfriend.playAnim("singRIGHT" + ((altAnim && boyfriend.animation.exists("singRIGHT-alt") == true) ? "-alt":""), true);
+                boyfriend.playAnim("singRIGHT" + ((e.altAnim && boyfriend.animation.exists("singRIGHT-alt") == true) ? "-alt":""), true);
         }
     }
 }

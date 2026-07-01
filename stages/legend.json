@@ -1,0 +1,143 @@
+{
+	"camera_boyfriend": [
+		-520,
+		100
+	],
+	"_editorMeta": {
+		"boyfriend": "pac",
+		"gf": "mike",
+		"dad": "ralucahero"
+	},
+	"preload": {
+		"images/stagecurtains": 2,
+		"images/smoke": 3,
+		"images/spotlight": 3,
+		"images/stage_light": 2,
+		"images/stageback": 3,
+		"images/stagefront": 3
+	},
+	"girlfriend": [
+		22,
+		54
+	],
+	"stageUI": "",
+	"boyfriend": [
+		547,
+		102
+	],
+	"objects": [
+		{
+			"x": 0,
+			"y": 0,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/Legend/BG",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bg",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/Legend/BG2",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bg2",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": 126,
+			"y": 467,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/Legend/FG",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "fg",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 7,
+			"y": 5,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/Legend/overlay",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_girlfriend": [
+		350,
+		25
+	],
+	"defaultZoom": 1.1,
+	"camera_speed": 1,
+	"directory": "week1",
+	"opponent": [
+		396,
+		-44
+	],
+	"camera_opponent": [
+		50,
+		300
+	],
+	"hide_girlfriend": false
+}
