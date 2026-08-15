@@ -1,0 +1,12 @@
+{
+  "name": "stickers-set-1",
+  "artist": "PhantomArcade3K",
+  "stickers": {
+    "basic": ["amanda", "ashpreto", "cellbit", "core", "dani", "diamante", "diggo", "edgar", "jeanl", "gay", "kika", "lila", "nelipe", "raluca", "raluca2", "wrench",
+  "fang", "elita", "mike", "nilse", "sh2", "nyanses", "tijolo"]
+    
+  },
+  "stickerPacks": {
+    "all": ["basic"]
+  }
+}

@@ -1,8 +1,8 @@
 {
-	"storyName": "Your New Week",
+	"storyName": "PUTZ TAZERCRAFT",
 	"difficulties": "hard, swapped",
 	"hideFreeplay": false,
-	"weekBackground": "stage",
+	"weekBackground": "philly",
 	"weekBefore": "week7",
 	"startUnlocked": true,
 	"hideStoryMode": false,
@@ -19,10 +19,10 @@
 
 	],
 	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
+		"raluweek",
+		"pacweek",
+		"mikeweek"
 	],
-	"weekName": "week 8",
+	"weekName": "weekle",
 	"hiddenUntilUnlocked": false
 }

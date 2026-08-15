@@ -1,0 +1,9 @@
+{
+	"idle_anim": "idle",
+	"image": "mikeweek",
+	"position": [-20, -5],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 1.1,
+	"confirm_anim": "idle"
+}

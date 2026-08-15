@@ -1,7 +1,6 @@
 // isCameraOnForcedPos
-if(ClientPrefs.vibrating != null){ 
 import shaders.DropShadowShader;
-}import shaders.WiggleEffectRuntime;
+import shaders.WiggleEffectRuntime;
 import shaders.WiggleEffectRuntime.WiggleEffectType;
 
 var shits:Array = [];
@@ -17,7 +16,14 @@ function onCreate(){
 	add(blackScreen);
 
 	for(i in [1,2,3,4]){
-		var fbs = new FlxSprite().loadGraphic(Paths.image("stages/scarlet/" + i));
+		var fbs;
+		if(PlayState.instance.songName.toLowerCase() == "tranquility-alt"){
+			fbs  = new FlxSprite().loadGraphic(Paths.image("stages/scarlet/alt/" + i));
+			fbs.screenCenter();
+			fbs.setGraphicSize(0,FlxG.height);
+		} else {
+			fbs  = new FlxSprite().loadGraphic(Paths.image("stages/scarlet/" + i));
+		}
 		add(fbs);
 		fbs.cameras = [camHUD];
 		shits.push(fbs);
@@ -36,12 +42,13 @@ function onCreatePost(){
 
 	game.getLuaObject("bg").shader = wiggleEffece;
 	game.getLuaObject("bg").antialiasing = true;
+
 }
 function onUpdate(elapsed){
 	wiggleEffece?.update(elapsed);
 }
 function applyshit(obj){
-		if(ClientPrefs.vibrating == null) return;
+		if(Type.resolveClass(DropShadowShader) == null) return;
         var name = new DropShadowShader();
 		name.setAdjustColor(-10, 10, 20, 0);
 		name.color = 0xFF660054;
@@ -54,6 +61,12 @@ function applyshit(obj){
 				name.angle = 60;
 			case "casual_fever":
 				name.angle = 120;
+			case "kyubi":
+				name.angle = 50;
+				name.distance = 10;
+			case "mikoplr":
+				name.distance =30;
+				name.angle = 70;
 			default:
 				name.angle = 90;
 		}
@@ -115,6 +128,7 @@ function onBeatHit(){
 				FlxTween.tween(strumLineNotes.members[i + 4], {alpha: 1}, 1);
 			
 			}
-
+		case 304:
+			camGame.fade(0xFF000000, 3 * inst.pitch, false);
 	}
 }

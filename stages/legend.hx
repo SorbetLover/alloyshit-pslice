@@ -10,19 +10,19 @@ function glu(obj){
 }
 var pos = [[0,0],[0,0]];
 function onCreate(){
-
+	PlayState.instance.skipCountdown = true;
 }
 function onCreatePost(){
 	isswaps = Difficulty.getString().toUpperCase() == "SWAPPED";
-	debugPrint(isswaps + " AAA");
+	// debugPrint(isswaps + " AAA");
 	// for(i in ["overlay", "bg", "bg2", "fg"]){
 		// glu(i).scrollFactor.set(0,0);
 		// glu(i).screenCenter();
 	// }
 
-	glu("overlay").setGraphicSize(FlxG.width - 100, FlxG.height - 60);
-	glu("overlay").x = 20;	
+	glu("overlay").setGraphicSize(0, FlxG.height-50);
 	glu("overlay").screenCenter();
+	glu("overlay").x += 5;	
 	glu("overlay").scrollFactor.set(0,0);
 
 	glu("fg").y = FlxG.height - glu("fg").height - 30;
@@ -59,7 +59,7 @@ function onCreatePost(){
 	}
 	if(FlxG.width > 1280){
 		var diff = FlxG.width - 1280;
-		debugPrint(diff);
+		// debugPrint(diff);
 		var limit1 = new FlxSprite(0,0).makeGraphic(1,1,0xFF000000);
 		limit1.scrollFactor.set(0,0);
 		// limit1.setGraphicSize(diff, FlxG.height + 100);
@@ -116,8 +116,8 @@ function onUpdate(elapsed){
 		glu("fg").visible = true;
 		glu("overlay").visible = false;
 	} else {
-		glu("overlay").visible = true;
 		glu("bg2").visible = true;
+		glu("overlay").visible = true;
 
 		dad.setPosition(pos[1][0], pos[1][1]);
 		scoreTxt.visible = false;
